@@ -1,12 +1,20 @@
 {
   "name": "project-structure",
   "version": "0.0.1",
-  "description": "Job test to One Marketing",
+  "description": "How to strutcture your project.",
   "main": "index.js",
   "scripts": {
     "eslint": "./node_modules/.bin/eslint",
-    "gulp": "./node_modules/.bin/gulp"
+    "gulp": "./node_modules/.bin/gulp",
+    "build": "yarn run gulp publish"
   },
+  "keywords": [
+    "gulp",
+    "structure",
+    "project",
+    "folders",
+    "build"
+  ],
   "author": "Bruno Macedo <contato@brunomacedo.com.br>",
   "license": "MIT",
   "devDependencies": {
