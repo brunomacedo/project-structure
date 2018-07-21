@@ -1,7 +1,7 @@
 {
   "name": "project-structure",
   "version": "0.0.2",
-  "description": "How to strutcture your project.",
+  "description": "How to structure your project.",
   "main": "index.js",
   "scripts": {
     "eslint": "./node_modules/.bin/eslint",
