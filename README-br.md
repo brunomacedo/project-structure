@@ -10,9 +10,7 @@ Apenas um simples exemplo de como iniciar seu projeto de front-end seguindo as b
 ## Pré requisitos
 
 - Instalação do [Node](https://nodejs.org/en/)
-
 - Instalação do [Git](https://git-scm.com/downloads)
-
 - Ter um editor de código de preferência o [Vscode](https://code.visualstudio.com/download)
 
 
