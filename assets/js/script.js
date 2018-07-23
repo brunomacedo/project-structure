@@ -6,11 +6,9 @@ export default class Messages {
         this.success = options.success || 'Enviado com sucesso, estamos redirecionando.';
         this.warning = options.warning || 'Não encontrado.';
     }
-
     show() {
         return this.empty;
     }
-
     clear() {
         return this.error;
     }
