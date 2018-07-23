@@ -6,4 +6,78 @@
 
 Apenas um simples exemplo de como iniciar seu projeto de front-end seguindo as boas práticas de organização e padronização.
 
-#### 🇺🇸 [<-- Voltar para página principal](README.md)
+
+## Pré requisitos
+
+- Instalação do [Node](https://nodejs.org/en/)
+
+- Instalação do [Git](https://git-scm.com/downloads)
+
+- Ter um editor de código de preferência o [Vscode](https://code.visualstudio.com/download)
+
+
+## Sumário
+
+[VSCODE Instalado os plugins](#)
+
+- [Editorconfig](#)
+- [ESLint](#)
+- [JavaScript (ES6) code snippet](#)
+- [Sass](#)
+- [Settings Sync](#)
+- [Sublime Text Keymap](#)
+- [Vscode Icons](#)
+
+
+[GIT Iniciando o repositório](#)
+
+- [Setando as configurações de usuário](#)
+- [Como iniciar o repositório localmente](#)
+- [Como adicionar o repositório remoto mesmo já tendo criado localmente](#)
+- [Quais principais comandos do GIT usar](#)
+- [GITIGNORE remova arquivos que não devem ser versionados](#)
+
+
+[NPM Instalando as dependencias](#)
+
+- [Gerando o package.json automaticamente](#)
+- [Instalando os pacotes](#)
+- [Diferença de instalar como dependencia e dependencia de desenvolvimento](#)
+- [Comandos NPM para facilitar](#)
+- [Instalando o YARN via NPM](#)
+
+
+[GULP Como iniciar](#)
+
+- [Fazendo a instalação](#)
+- [Porque você Não deveria instalar o GULP globalmente](#)
+- [Criando as primeiras tasks com o GULP](#)
+
+
+[ESLINT Padronizando o JavaScript](#)
+
+- [Instalando o ESLINT](#)
+- [Criando arquivo inicial](#)
+- [Integração com o VSCODE](#)
+- [Adicionando suas regras](#)
+
+
+## VSCODE Instalado os plugins
+
+
+## GIT Iniciando o repositório
+
+
+## NPM Instalando as dependencias
+
+
+## GULP Como iniciar
+
+
+## ESLINT Padronizando o JavaScript
+
+
+
+
+
+#### [<< Voltar para página principal](README.md)[🇺🇸](README.md)
