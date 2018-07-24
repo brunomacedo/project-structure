@@ -78,4 +78,4 @@ Apenas um simples exemplo de como iniciar seu projeto de front-end seguindo as b
 
 
 
-#### [<< Voltar para página principal](README.md)[🇺🇸](README.md)
+#### [<< Voltar para página principal](README.md) [🇺🇸](README.md)
