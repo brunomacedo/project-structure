@@ -9,7 +9,7 @@ Apenas um simples exemplo de como iniciar seu projeto de front-end seguindo as b
 
 ## Pré requisitos
 
-- Instalação do [Node](https://nodejs.org/en/)
+- Instalação do [Node](https://nodejs.org/en/) versão 8 ou superior
 - Instalação do [Git](https://git-scm.com/downloads)
 - Ter um editor de código de preferência o [Vscode](https://code.visualstudio.com/download)
 
@@ -18,13 +18,13 @@ Apenas um simples exemplo de como iniciar seu projeto de front-end seguindo as b
 
 [VSCODE Instalando os plugins](#vscode-instalando-os-plugins)
 
-- [Editorconfig](#)
-- [ESLint](#)
-- [JavaScript (ES6) code snippet](#)
-- [Sass](#)
-- [Settings Sync](#)
-- [Sublime Text Keymap](#)
-- [Vscode Icons](#)
+- Sublime Text Keymap
+- JavaScript (ES6) code snippet
+- Vscode Icons
+- Sass
+- Editorconfig
+- ESLint
+- Settings Sync
 
 
 [GIT Iniciando o repositório](#git-iniciando-o-reposit%C3%B3rio)
@@ -62,20 +62,59 @@ Apenas um simples exemplo de como iniciar seu projeto de front-end seguindo as b
 
 ## VSCODE Instalando os plugins
 
+Extensões recomendadas para usar no **VSCODE**
+
+![Gerenciador de extensões VSCODE](screenshot/vscode-exntensions.png)
+
+### Plugins que não necessitam de configuração
+- Sublime Text Keymap
+- JavaScript (ES6) code snippet
+- Vscode Icons
+- Sass
+
+### Necessário configuração
+
+#### Editorconfig <img src="https://editorconfig.gallerycdn.vsassets.io/extensions/editorconfig/editorconfig/0.12.4/1527781734664/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
+
+- Faça o download da extensão do Editorconfig [[aqui](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)]
+- Crie um arquivo `.editorconfig` na raiz do seu projeto.
+
+```properties
+root = true
+
+[*]
+indent_size = 4
+indent_style = space
+end_of_line = lf
+trim_trailing_whitespace = true
+charset = utf-8
+insert_final_newline = true
+```
+
+#### ESLint <img src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/1.4.5/1517498380672/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
+
+- Faça o download da extensão do ESLint [[aqui](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)]
+- Passe uma **configuração** no seu VSCode e depois adicione o ESLint como depencência de desenvolvimento do seu projeto [[clique aqui](#eslint-padronizando-o-javascript)].
+
+
+**Aplica algumas correções automaticamente ao salvar um arquivo**
+
+Adicione essa linha no seu `User Settings` do VSCode - atalho [CTRL + ,] ou [CMD + ,]
+
+```json
+"eslint.autoFixOnSave": true
+```
+
+![Correção ao salvar](screenshot/magic-onsave.gif)
+
+
+#### Settings Sync
 
 ## GIT Iniciando o repositório
-
-
 ## NPM Instalando as dependencias
-
-
 ## GULP Como iniciar
-
-
 ## ESLINT Padronizando o JavaScript
 
 
 
-
-
-#### [<< Voltar para página principal](README.md) [🇺🇸](README.md)
+#### [< Voltar para página principal](README.md) [🇺🇸](README.md)
