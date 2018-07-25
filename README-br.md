@@ -72,7 +72,7 @@ Extensões recomendadas para usar no **VSCODE**
 - Vscode Icons
 - Sass
 
-### Editorconfig <img src="https://editorconfig.gallerycdn.vsassets.io/extensions/editorconfig/editorconfig/0.12.4/1527781734664/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
+## Editorconfig <img src="https://editorconfig.gallerycdn.vsassets.io/extensions/editorconfig/editorconfig/0.12.4/1527781734664/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
 
 - Faça o download da extensão do Editorconfig [[aqui](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)]
 - Crie um arquivo `.editorconfig` na raiz do seu projeto.
@@ -89,7 +89,7 @@ charset = utf-8
 insert_final_newline = true
 ```
 
-### ESLint <img src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/1.4.5/1517498380672/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
+## ESLint <img src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/1.4.5/1517498380672/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
 
 - Faça o download da extensão do ESLint [[aqui](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)]
 - Passe uma **configuração** no seu VSCode e depois adicione o ESLint como depencência de desenvolvimento do seu projeto [[clique aqui](#eslint-padronizando-o-javascript)].
@@ -106,7 +106,8 @@ Adicione essa linha no seu `User Settings` do VSCode - atalho [CTRL + ,] ou [CMD
 ![Correção ao salvar](screenshot/magic-onsave.gif)
 
 
-### Settings Sync
+## Settings Sync
+
 
 ## GIT Iniciando o repositório
 ## NPM Instalando as dependencias
