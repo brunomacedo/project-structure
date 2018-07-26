@@ -11,16 +11,16 @@ Apenas um simples exemplo de como iniciar seu projeto de front-end seguindo as b
 
 - Instalação do [Node](https://nodejs.org/en/) versão 8 ou superior
 - Instalação do [Git](https://git-scm.com/downloads)
-- Ter um editor de código de preferência o [Vscode](https://code.visualstudio.com/download)
+- Ter um editor de código de preferência o [VSCode](https://code.visualstudio.com/download)
 
 
 ## Sumário
 
-[VSCODE Instalando os plugins](#vscode-instalando-os-plugins)
+[VSCode Instalando os plugins](#vscode-instalando-os-plugins)
 
 - Sublime Text Keymap
 - JavaScript (ES6) code snippet
-- Vscode Icons
+- VSCode Icons
 - Sass
 - [Editorconfig](#editorconfig)
 - [ESLint](#eslint)
@@ -56,7 +56,7 @@ Apenas um simples exemplo de como iniciar seu projeto de front-end seguindo as b
 
 - [Instalando o ESLINT](#)
 - [Criando arquivo inicial](#)
-- [Integração com o VSCODE](#)
+- [Integração com o VSCode](#)
 - [Adicionando suas regras](#)
 
 
