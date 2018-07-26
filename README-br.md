@@ -22,9 +22,9 @@ Apenas um simples exemplo de como iniciar seu projeto de front-end seguindo as b
 - JavaScript (ES6) code snippet
 - Vscode Icons
 - Sass
-- Editorconfig
-- ESLint
-- Settings Sync
+- [Editorconfig](#editorconfig)
+- [ESLint](#eslint)
+- [Settings Sync](#settings-sync)
 
 
 [GIT Iniciando o repositório](#git-iniciando-o-reposit%C3%B3rio)
@@ -72,7 +72,7 @@ Extensões recomendadas para usar no **VSCode**
 - VSCode Icons
 - Sass
 
-## Editorconfig <img src="https://editorconfig.gallerycdn.vsassets.io/extensions/editorconfig/editorconfig/0.12.4/1527781734664/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
+## Editorconfig<img src="https://editorconfig.gallerycdn.vsassets.io/extensions/editorconfig/editorconfig/0.12.4/1527781734664/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
 
 - Página da extensão do Editorconfig disponível [[aqui](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)]
 - Crie um arquivo `.editorconfig` na raiz do seu projeto.
@@ -89,7 +89,7 @@ charset = utf-8
 insert_final_newline = true
 ```
 
-## ESLint <img src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/1.4.5/1517498380672/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
+## ESLint<img src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/1.4.5/1517498380672/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
 
 ### Para que server?
 O **ESLint** é um validador de padrões para JavaScript, você pode configurar o seu padrão para que outros desenvolvedores possam seguir. Nessa extensão para **VSCode**, identifica a configuração passada no projeto e ao salvar aplica algumas correções **automaticamente**.
@@ -107,7 +107,7 @@ Adicione essa linha no seu `User Settings` do VSCode - atalho [CTRL + ,] ou [CMD
 ![Correção ao salvar](screenshot/magic-onsave.gif)
 
 
-## Settings Sync <img src="https://shan.gallerycdn.vsassets.io/extensions/shan/code-settings-sync/3.0.0/1531516263147/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
+## Settings Sync<img src="https://shan.gallerycdn.vsassets.io/extensions/shan/code-settings-sync/3.0.0/1531516263147/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
 
 ### Para que server?
 Com o **Settings Sync** você pode sincronizar suas configurações do **VSCode**, como tamanho de font, terminal preferido, extensões em qualquer computador que você usar.
