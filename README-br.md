@@ -114,10 +114,21 @@ Com o **Settings Sync** você pode sincronizar suas configurações do **VSCode*
 
 - Página da extensão do Settings Sycn disponível [[aqui](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)]
 
-- Instale a extensão, irá pedir para fazer login com o seu GitHub
-- O Gist do seu GitHub irá gerar um token, lembre de **salvar** esse **token**
-- Para configurar em outro computador, apenas instale a extensão no VSCode, e passe o token do seu Gist
-- A cada modificação ou instalação de uma nova extensão, irá sincronizar automaticamente
+- Após instalar irá pedir um token, gere esse token no seu GitHub, salve esse token, pois será usado para sincronizar em outros computadores que você for usar
+
+Vá em: [Settings](https://github.com/settings) / [Developer settings](https://github.com/settings/tokens) / [Personal access tokens](https://github.com/settings/tokens) / **Generate New Token**
+
+1.
+![Gerar novo token](screenshot/github1.png)
+
+2.
+![Selecionar Gist](screenshot/github2.png)
+
+3.
+![Token de acesso](screenshot/github3.png)
+
+> Salve o **token** em algum lugar para ser usado futuramente em outros computadores.
+
 
 
 ## GIT Iniciando o repositório
