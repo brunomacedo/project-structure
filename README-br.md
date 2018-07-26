@@ -112,7 +112,7 @@ Adicione essa linha no seu `User Settings` do VSCode - atalho [CTRL + ,] ou [CMD
 ### Para que server?
 Com o **Settings Sync** você pode sincronizar suas configurações do **VSCode**, como tamanho de font, terminal preferido, extensões em qualquer computador que você usar.
 
-- Página da extensão do Settings Sycn disponível [[aqui](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)]
+- Página da extensão do Settings Sync disponível [[aqui](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)]
 
 - Após instalar irá pedir um token, gere esse token no seu GitHub, salve esse token, pois será usado para sincronizar em outros computadores que você for usar
 
