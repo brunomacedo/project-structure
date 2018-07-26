@@ -60,21 +60,21 @@ Apenas um simples exemplo de como iniciar seu projeto de front-end seguindo as b
 - [Adicionando suas regras](#)
 
 
-## VSCODE Instalando os plugins
+## VSCode Instalando os plugins
 
-Extensões recomendadas para usar no **VSCODE**
+Extensões recomendadas para usar no **VSCode**
 
-![Gerenciador de extensões VSCODE](screenshot/vscode-exntensions.png)
+![Gerenciador de extensões VSCode](screenshot/vscode-exntensions.png)
 
 ### Plugins que não necessitam de configuração
 - Sublime Text Keymap
 - JavaScript (ES6) code snippet
-- Vscode Icons
+- VSCode Icons
 - Sass
 
 ## Editorconfig <img src="https://editorconfig.gallerycdn.vsassets.io/extensions/editorconfig/editorconfig/0.12.4/1527781734664/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
 
-- Faça o download da extensão do Editorconfig [[aqui](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)]
+- Página da extensão do Editorconfig disponível [[aqui](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)]
 - Crie um arquivo `.editorconfig` na raiz do seu projeto.
 
 ```properties
@@ -91,11 +91,12 @@ insert_final_newline = true
 
 ## ESLint <img src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/1.4.5/1517498380672/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
 
-- Faça o download da extensão do ESLint [[aqui](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)]
+### Para que server?
+O **ESLint** é um validador de padrões para JavaScript, você pode configurar o seu padrão para que outros desenvolvedores possam seguir. Nessa extensão para **VSCode**, identifica a configuração passada no projeto e ao salvar aplica algumas correções **automaticamente**.
+
+- Página da extensão do ESLint disponível [[aqui](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)]
 - Passe uma **configuração** no seu VSCode e depois adicione o ESLint como depencência de desenvolvimento do seu projeto [[veja aqui](#eslint-padronizando-o-javascript)].
 
-
-**Aplica algumas correções automaticamente ao salvar um arquivo**
 
 Adicione essa linha no seu `User Settings` do VSCode - atalho [CTRL + ,] ou [CMD + ,]
 
@@ -106,7 +107,17 @@ Adicione essa linha no seu `User Settings` do VSCode - atalho [CTRL + ,] ou [CMD
 ![Correção ao salvar](screenshot/magic-onsave.gif)
 
 
-## Settings Sync
+## Settings Sync <img src="https://shan.gallerycdn.vsassets.io/extensions/shan/code-settings-sync/3.0.0/1531516263147/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
+
+### Para que server?
+Com o **Settings Sync** você pode sincronizar suas configurações do **VSCode**, como tamanho de font, terminal preferido, extensões em qualquer computador que você usar.
+
+- Página da extensão do Settings Sycn disponível [[aqui](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)]
+
+- Instale a extensão, irá pedir para fazer login com o seu GitHub
+- O Gist do seu GitHub irá gerar um token, lembre de **salvar** esse **token**
+- Para configurar em outro computador, apenas instale a extensão no VSCode, e passe o token do seu Gist
+- A cada modificação ou instalação de uma nova extensão, irá sincronizar automaticamente
 
 
 ## GIT Iniciando o repositório
