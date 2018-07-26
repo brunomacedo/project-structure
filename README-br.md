@@ -118,13 +118,13 @@ Com o **Settings Sync** você pode sincronizar suas configurações do **VSCode*
 
 Vá em: [Settings](https://github.com/settings) / [Developer settings](https://github.com/settings/tokens) / [Personal access tokens](https://github.com/settings/tokens) / **Generate New Token**
 
-1.
+- Passo 1
 ![Gerar novo token](screenshot/github1.png)
 
-2.
+- Passo 2
 ![Selecionar Gist](screenshot/github2.png)
 
-3.
+- Passo 3
 ![Token de acesso](screenshot/github3.png)
 
 > Salve o **token** em algum lugar para ser usado futuramente em outros computadores.
