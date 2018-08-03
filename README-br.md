@@ -31,9 +31,9 @@ Apenas um simples exemplo de como iniciar seu projeto de front-end seguindo as b
 
 - [Setando as configurações de usuário](#)
 - [Como iniciar o repositório localmente](#)
+- [GITIGNORE remova arquivos que não devem ser versionados](#)
 - [Como adicionar o repositório remoto mesmo já tendo criado localmente](#)
 - [Quais principais comandos do GIT usar](#)
-- [GITIGNORE remova arquivos que não devem ser versionados](#)
 
 
 [NPM Instalando as dependencias](#npm-instalando-as-dependencias)
@@ -130,8 +130,107 @@ Vá em: [Settings](https://github.com/settings) / [Developer settings](https://g
 > Salve o **token** em algum lugar para ser usado futuramente em outros computadores.
 
 
-
 ## GIT Iniciando o repositório
+
+### Setando as configurações de usuário
+
+Ao passar as configurções você estará informando qual email e nome de usuário está versionando os arquivos em questão.
+
+- Setando nome de usuário para qualquer repositório no seu computador:
+
+1. Passando o `username`
+
+```bash
+git config --global user.name "Seu nome"
+```
+
+2. Verificando o nome adicionado globalmente
+
+```bash
+git config --global user.name
+```
+
+Resultado: **Seu nome**
+
+
+---
+
+
+- Setando e-mail para qualquer repositório no seu computador:
+
+1. Passando o e-mail
+
+```bash
+git config --global user.email "seu-email@site.com.br"
+```
+
+2. Verificando o e-mail adicionado globalmente
+
+```bash
+git config --global user.email
+```
+
+Resultado: **seu-email@site.com.br**
+
+
+### Como iniciar o repositório localmente
+
+Mesmo que você ainda não tenha um repositório remoto criado, você pode e deve versionar seus arquivos localmente, assim mantem um histórico de tudo já feito em seu projeto. E depois você pode conecta-ló à um repositório remoto com facilidade.
+
+1. Escolha uma pasta/diretório
+2. Abra o bash a partir dessa pasta/diretório
+
+![Minha pasta](screenshot/my-folder.png)
+
+3. No terminado digite, lembrando você tem que ter o **GIT** instalado, se você ainda não instalou, [clique aqui](https://git-scm.com/downloads):
+
+```bash
+git init
+```
+
+### GITIGNORE remova arquivos que não devem ser versionados
+
+Remove arquivos desnecessários para o versionamento, as vezes você precisa ou quer remover algum arquivo que não precisa ter um histórico de versões, para fazer isso é bem simples. Crie um arquivo na raiz do seu projeto chamado `.gitignore` com o ponto no começo mesmo.
+
+- Jeito rápido de criar o arquivo, se já estiver com o terminal aberto!
+
+```bash
+touch .gitignore
+```
+
+Após criar o arquivo, adione nele os nomes dos arquivos e pastas que não serão versionados. A leitura do arquivo é feita linha a linha, então adicione apenas um nome por linha.
+
+**Exemplo:**
+
+```
+node_modules/
+jspm_packages/
+*.zip
+*.lock
+.cache
+```
+
+- Vimos a forma manual, mas agora tem uma forma mais legal de fazer isso usando um pacote do **NPM**, assim você consegue ter uma lista mais completa de arquivos para não serem versionados.
+
+1. Instale o pacote globalmente, você pode ver o [aqui](https://www.npmjs.com/package/gitignore).
+
+```bash
+npm install gitignore -g
+```
+
+2. Após instalar esse pacote, vá no terminal onde está a pasta do seu projeto e digite o comando abaixo para consultar os tipos disponíveis:
+
+```bash
+gitignore -types
+```
+
+3. Criar arquivo `.gitignore` e já adiona quais arquivos de projetos **node** não serão versionados.
+
+```bash
+gitignore node
+```
+
+
 ## NPM Instalando as dependencias
 ## GULP Como iniciar
 ## ESLINT Padronizando o JavaScript
