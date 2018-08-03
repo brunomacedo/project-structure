@@ -197,7 +197,9 @@ git init
 
 ### GITIGNORE remova arquivos que não devem ser versionados
 
-Remove arquivos desnecessários para o versionamento, as vezes você precisa ou quer remover algum arquivo que não precisa ter um histórico de versões, para fazer isso é bem simples. Crie um arquivo na raiz do seu projeto chamado `.gitignore` com o ponto no começo mesmo.
+Remove arquivos desnecessários para o versionamento.
+
+As vezes você precisa ou quer remover algum arquivo que não precisa ter um histórico de versões, para fazer isso é bem simples. Crie um arquivo na raiz do seu projeto chamado `.gitignore` com o ponto no começo mesmo.
 
 #### Jeito rápido de criar o arquivo, se já estiver com o terminal aberto!
 
@@ -205,7 +207,7 @@ Remove arquivos desnecessários para o versionamento, as vezes você precisa ou 
 touch .gitignore
 ```
 
-Após criar o arquivo, adione nele os nomes dos arquivos e pastas que não serão versionados. A leitura do arquivo é feita linha a linha, então adicione apenas um nome por linha.
+Após criar o arquivo, adicione nele os nomes dos arquivos e pastas que não serão versionados. A leitura do arquivo é feita linha a linha, então inclua apenas um nome por linha.
 
 **Exemplo:**
 
@@ -231,7 +233,7 @@ npm install gitignore -g
 gitignore -types
 ```
 
-**3.** Criar arquivo `.gitignore` e já adiona quais arquivos de projetos **node** não serão versionados.
+**3.** Criar arquivo `.gitignore` e já adiona quais arquivos de projetos do tipo **node** não serão versionados.
 
 ```bash
 gitignore node
