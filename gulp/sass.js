@@ -6,9 +6,9 @@ import rename from 'gulp-rename';
 import { config } from './config';
 import { error, good } from './logs';
 
-gulp.task('min-sass', () => {
+gulp.task('sass', () => {
     console.log(error('Compressed sass on folder:', good(config.scss.dest)));
-    return gulp.src(config.scss.root)
+    return gulp.src(config.scss.src)
         .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
         .pipe(autoprefixer({ browsers: ['last 40 versions', '> 5%', 'Firefox ESR'] }))
         .pipe(rename({ suffix: '.min'}))
