@@ -8,7 +8,7 @@ import { warning, good } from './logs';
 
 gulp.task('build', () => {
     console.log(warning('Building scripts on folder:', good(config.js.dest)));
-    return gulp.src(config.js.root)
+    return gulp.src(config.js.src)
         .pipe(babel())
         .pipe(uglify())
         .pipe(rename({ suffix: '.min'}))
