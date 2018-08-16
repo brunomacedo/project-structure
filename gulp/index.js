@@ -7,15 +7,14 @@ import './template';
 
 import { config } from './config';
 
-gulp.task('default', ['template', 'build', 'sass', 'min-sass'], () => {
+gulp.task('default', ['template', 'build', 'sass'], () => {
     browserSync({
         server: './public'
     });
 
-    // .pipe(browserSync.stream())
-    gulp.watch(config.js.root, ['build']).on('change', browserSync.reload);
-    gulp.watch(config.scss.root, ['sass', 'min-sass']).on('change', browserSync.reload);
-    gulp.watch('src/**/*.html', ['template']).on('change', browserSync.reload);
+    gulp.watch(config.js.src, ['build']).on('change', browserSync.reload);
+    gulp.watch(config.scss.src, ['sass']).on('change', browserSync.reload);
+    gulp.watch(config.template.type, ['template']).on('change', browserSync.reload);
 });
 
-gulp.task('publish', ['build', 'sass', 'min-sass']);
+gulp.task('publish', ['template', 'build', 'sass']);
