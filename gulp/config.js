@@ -1,19 +1,20 @@
 const config = {
     template: {
-        root: 'src/templates/*.html',
+        src: 'app/templates/*.html',
+        type: 'app/**/*.html',
         dest: 'public',
         defaults: {
-            basePath: 'src/includes/',
+            basePath: 'app/includes/',
             tagName: 'include',
             variablePrefix: '@@'
         }
     },
     scss: {
-        root: 'src/scss/*.scss',
+        src: 'app/scss/*.scss',
         dest: 'public/css'
     },
     js: {
-        root: 'src/js/*.js',
+        src: 'app/js/*.js',
         dest: 'public/js'
     }
 };
