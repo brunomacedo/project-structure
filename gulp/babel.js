@@ -14,7 +14,3 @@ gulp.task('build', () => {
         .pipe(rename({ suffix: '.min'}))
         .pipe(gulp.dest(config.js.dest));
 });
-
-gulp.task('dev', () => {
-    gulp.watch(config.js.root, ['build']);
-});
