@@ -242,8 +242,30 @@ gitignore node
 
 ## NPM Instalando as dependencias
 ## GULP Como iniciar
+
 ## ESLINT Padronizando o JavaScript
 
+### Instalando o ESLINT
+
+Use o comando abaixo para instalar em seu projeto e faça a instalação **global**.
+
+```bash
+npm install -D eslint
+```
+
+```bash
+npm install -g eslint
+```
+
+### Criando arquivo inicial
+
+Para iniciar o eslint, instale globalmente como indicado acima, e inicie com o comando abaixo e siga os passos indicados no terminal.
+
+![ESLint Init](screenshot/eslint-init.png)
+
+```bash
+eslint --init
+```
 
 
 #### [< Voltar para página principal](README.md) [🇺🇸](README.md)
